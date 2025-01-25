@@ -49,3 +49,4 @@ for i in range(12, 16):
 import random
 for i in range(4):
     print(random.randint(1, 10))
+

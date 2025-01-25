@@ -50,3 +50,21 @@ import random
 for i in range(4):
     print(random.randint(1, 10))
 
+spam = int(input('Enter a number: '))
+if spam == 1:
+    print('Hello')
+elif spam == 2:
+    print('Howdy')
+else:
+    print('Greetings!')
+
+
+
+number = 0
+while number < 11:
+    print(number)
+    number = number + 1
+
+number = 0
+for i in range(11):
+    print(i)

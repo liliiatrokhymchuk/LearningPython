@@ -1,40 +1,40 @@
 spam = 0
 while spam < 5:
-    print('Hello world')
+    print("Hello world")
     spam = spam + 1
 
 
-name = ''
-while name != 'Your name':
-    print('Please type your name')
+name = ""
+while name != "Your name":
+    print("Please type your name")
     name = input()
-print('Thank you!')
+print("Thank you!")
 
 while True:
-    print('Who are you?')
+    print("Who are you?")
     name = input()
-    if name != 'Joe':
+    if name != "Joe":
         continue
-    print('Hello Joe. What is the password?')
+    print("Hello Joe. What is the password?")
     password = input()
-    if password == 'fish':
+    if password == "fish":
         break
-print('Access granted.')
+print("Access granted.")
 
 
 while not name:
-    print('Enter your name:')
+    print("Enter your name:")
     name = input()
-print('How mane guests will you have?')
+print("How mane guests will you have?")
 numofguests = int(input())
 if numofguests:
-    print ('Great!')
-print('Done.')
+    print("Great!")
+print("Done.")
 
 
-print('My name is')
+print("My name is")
 for i in range(5):
-    print('Jimmy Five Times (' + str(i) + ')')
+    print("Jimmy Five Times (" + str(i) + ")")
 
 
 total = 0
@@ -47,17 +47,17 @@ for i in range(12, 16):
     print(i)
 
 import random
+
 for i in range(4):
     print(random.randint(1, 10))
 
-spam = int(input('Enter a number: '))
+spam = int(input("Enter a number: "))
 if spam == 1:
-    print('Hello')
+    print("Hello")
 elif spam == 2:
-    print('Howdy')
+    print("Howdy")
 else:
-    print('Greetings!')
-
+    print("Greetings!")
 
 
 number = 0
@@ -68,5 +68,3 @@ while number < 11:
 number = 0
 for i in range(11):
     print(i)
-
-    

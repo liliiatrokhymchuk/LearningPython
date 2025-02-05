@@ -155,13 +155,12 @@ def get(**kwargs):
 get(key="gttt")
 
 
-names = [
-    ['bla', 'dfdg'],
-    ['fdgd', 'gdgd']
-]
+names = [["bla", "dfdg"], ["fdgd", "gdgd"]]
+
 
 def concat(f, l):
-    print(f'{f} {l}')
+    print(f"{f} {l}")
+
 
 for l in names:
     concat(l[0], l[1])

@@ -1,4 +1,3 @@
-
 # message_to_print = input(help="tell me what to print")
 
 
@@ -10,10 +9,10 @@ def get_and_print_user_input():
     pass
 
 
-#if __name__ == "__main__":
+# if __name__ == "__main__":
 #    get_and_print_user_input()
 
 
-#get_and_print_user_input()
+# get_and_print_user_input()
 
 print(__name__)

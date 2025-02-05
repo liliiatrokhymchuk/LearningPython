@@ -1,7 +1,8 @@
 import duckdb
 
+
 def main():
-    print('connecting to duckdb')
+    print("connecting to duckdb")
     conn = duckdb.connect()
 
 
